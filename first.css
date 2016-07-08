@@ -1,0 +1,35 @@
+#headerWrapper{
+  position:fixed;
+  margin-left: 0px;
+  width: 100%;
+  height: 50px;
+  z-index: 1000;
+}
+li{
+ display:inline;
+ padding-right: 5px;
+ margin-right:  0px;
+
+}
+h1 a{
+  text-decoration: none;
+}
+
+ul a{
+  text-decoration: none;
+  color: brown;
+  font-size: 30px;
+
+}
+
+ul a:hover{
+  text-decoration:underline;
+}
+h1{
+  float: left;
+  width: 60%;
+  color: #DD597D;
+  font-size: 40px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 3px 10px white,2px -1px 5px red;
+}
